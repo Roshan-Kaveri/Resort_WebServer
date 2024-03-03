@@ -1,34 +1,43 @@
 import React from 'react'
 import './signup.css';
+import { Link } from "react-router-dom";
 
 function Signup(){
  return <div className="loginform">
-    <div className="loginbg">
+    <div className="signupbg">
     <div className="loginheader"></div>
             <form>
-           <div className="emailgrp">
-           
-           <h2 className="emailtxt">Email</h2>
-            <div className="email"> <input  type='email'/></div>
+               <div className="signUp_list">
+           <div className="signup_email">
+           <h2 className="signup_emailtxt" >Email</h2>
+            <div className="signup_email_inp"> <input  type='email' required/></div>
             </div>
-
-
-            <div className="pas1sgrp">
-          
-            <h2 className="pass1txt">Paswsord</h2>
-            <div className="pass1"> <input type='password'/>
+            <div className="signup_email">
+           <h2 className="signup_emailtxt">Password</h2>
+            <div className="signup_email_inp"> <input  type='password' required/></div>
             </div>
+            <div className="signup_email">
+           <h2 className="signup_emailtxt">Name</h2>
+            <div className="signup_email_inp"> <input  type='text' required/></div>
             </div>
-            
-
-            <div className="loginbtn">
-                <h2 className="login">Login</h2>
+            <div className="signup_email">
+           <h2 className="signup_emailtxt">Ph.No</h2>
+            <div className="signup_email_inp"> <input  type='tel'required/></div>
+            </div>
+            <div className="signup_email">
+           <h2 className="signup_emailtxt">Address</h2>
+            <div className="signup_email_inp"> <input  type='text' required/></div>
+            </div>
+            </div> 
+            <div className="signupbtn">
+                <h2 className="signup">SignUp</h2>
                 <input type='submit'/>
             </div>
-
-            <h2 className="signup">
+            <Link to="/">
+            <h2 className="signup_loginbtn">
                 dont have a account? sign up
             </h2>
+            </Link>
             </form>
         </div>
     </div>

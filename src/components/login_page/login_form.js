@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 function LoginForm(){
  return <div className="loginform">
@@ -8,14 +9,14 @@ function LoginForm(){
            <div className="emailgrp">
            
            <h2 className="emailtxt">Email</h2>
-            <div className="email"> <input  type='email'/></div>
+            <div className="email"> <input  type='email' required   /></div>
             </div>
 
 
             <div className="passgrp">
           
             <h2 className="passtxt">Paswsord</h2>
-            <div className="pass"> <input type='password'/>
+            <div className="pass"> <input type='password' required/>
             </div>
             </div>
             
@@ -24,10 +25,11 @@ function LoginForm(){
                 <h2 className="login">Login</h2>
                 <input type='submit'/>
             </div>
-
-            <h2 className="signup">
+            <Link to="/signup">
+            <h2 className="login_signupbtn">
                 dont have a account? sign up
             </h2>
+            </Link>
             </form>
         </div>
     </div>
