@@ -126,7 +126,7 @@
   height: 512px;
 
   /* top: -150px;
-left: 700px; */
+  left: 700px; */
 
   background: rgba(0, 0, 0, 0.6);
   border: 1px solid #000000;
@@ -134,7 +134,7 @@ left: 700px; */
   border-radius: 63px;
 }
 
-.passgrp {
+.pass1grp {
   position: relative;
   width: 450pxx;
   height: 111px;
@@ -142,7 +142,7 @@ left: 700px; */
 }
 
 /* Rectangle 4 */
-.pass {
+.pass1 {
   position: relative;
   width: 425px;
   height: 51px;
@@ -153,7 +153,7 @@ left: 700px; */
   border-radius: 25px;
 }
 
-.passtxt {
+.pass1txt {
   /* Password */
 
   position: relative;
@@ -270,7 +270,7 @@ left: 700px; */
   border-radius: 25px;
 }
 
-.pass > input {
+.pass1 > input {
   position: relative;
   width: 418px;
   height: 47px;
