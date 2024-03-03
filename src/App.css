@@ -13,7 +13,7 @@ body {
   margin-left: 80px;
 }
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
   .flexbox {
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@ body {
     margin-top: 200px;
     margin-left: 50px;
   }
-}
+} */
 
 /* BILLING */
 
@@ -94,7 +94,7 @@ body {
 
 .p_submit {
   box-sizing: 10px 8px;
-  background-color: lime;
+  background-color: rgba(255, 212, 71, 0.83);
   position: relative;
   margin-left: 25%;
   margin-top: 5%;

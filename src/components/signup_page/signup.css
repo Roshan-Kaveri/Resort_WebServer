@@ -1,214 +1,41 @@
-/* NavBar */
-
-.navbar {
-  position: absolute;
-  width: 100%;
-  height: 50px;
-  left: 0px;
-  top: 0px;
-}
-.navrect {
-  position: absolute;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  left: 0px;
-  top: 0px;
-
-  background: #ffde73;
-}
-
-.resort {
-  position: absolute;
-  width: 96px;
-  height: 85px;
-  scale: 50%;
-  left: 10px;
-  top: -17px;
-}
-
-/* Intro */
-
-.intro {
-  display: block;
+.signup_email {
   position: relative;
-  width: 50%;
-  height: 235px;
-  left: 38px;
-  top: 200px;
-}
-
-.introdesc {
-  position: relative;
-  right: 0%;
-  top: 0px;
-  margin: 0;
-  top: -20px;
-
-  display: block;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-
-  color: #ffffff;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-/* Manipal Resorts */
-.introtitle {
-  position: relative;
-  width: 100%;
-  height: 77px;
-
-  right: 0%;
-  top: -20px;
-
-  margin: 0%;
-  padding: 0%;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 64px;
-  line-height: 77px;
-
-  color: #ffffff;
-
-  backdrop-filter: blur(2px);
-  /* Note: backdrop-filter has minimal browser support */
-}
-
-/* Resort */
-.introresort {
-  position: relative;
-  width: 96px;
-  height: 85px;
-  left: 0px;
-  top: -10px;
-  z-index: 10;
-}
-
-/* Background */
-.background > img {
-  position: absolute;
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  opacity: 70%;
-}
-
-/* Form */
-.loginform {
-  position: relative;
-  display: block;
-  width: 332px;
-  height: 362px;
-}
-/* Intersect */
-
-.loginheader {
-  position: relative;
-  width: 470px;
-  height: 60px;
-  border-top-right-radius: 100px;
-  border-top-left-radius: 100px;
-  z-index: 1;
-  background: rgba(255, 212, 71, 0.83);
-}
-/* Rectangle 9 */
-.loginbg {
-  box-sizing: border-box;
-  margin: 0;
-  position: relative;
-  width: 470px;
-  height: 512px;
-
-  /* top: -150px;
-  left: 700px; */
-
-  background: rgba(0, 0, 0, 0.6);
-  border: 1px solid #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 63px;
-}
-
-.pass1grp {
-  position: relative;
-  width: 450pxx;
-  height: 111px;
-  margin: 20px;
+  width: 475px;
+  height: 63px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
 }
 
 /* Rectangle 4 */
-.pass1 {
+.signup_email_inp > input {
+  width: 250px;
+  text-align: center;
+  height: 40px;
   position: relative;
-  width: 425px;
-  height: 51px;
-  margin: 0;
-  top: -20px;
-
   background: #d9d9d9;
   border-radius: 25px;
 }
-
-.pass1txt {
-  /* Password */
-
+/* Username */
+.signup_emailtxt {
+  width: 180px;
+  height: 63px;
+  padding-left: 20px;
   position: relative;
-  width: 218px;
-  height: 44px;
-
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
   line-height: 60px;
-
-  color: #ffffff;
-}
-
-.emailgrp {
-  position: relative;
-  width: 450px;
-  height: 111px;
-  margin: 20px;
-}
-
-/* Rectangle 4 */
-.email {
-  position: relative;
-  width: 425px;
-  height: 51px;
   margin: 0;
-  top: -20px;
-
-  background: #d9d9d9;
-  border-radius: 25px;
-}
-
-.emailtxt {
-  /* Password */
-
-  position: relative;
-  width: 218px;
-  height: 44px;
-
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
-  line-height: 60px;
-
   color: #ffffff;
 }
 
 /* don’t have a account? sign up */
-.signup {
+.signup_loginbtn {
   position: relative;
   display: flex;
-  top: 10px;
+  top: -10px;
   justify-content: center;
 
   font-family: "Roboto", sans-serif;
@@ -224,12 +51,12 @@
 
 /* Rectangle 7 */
 
-.loginbtn {
+.signupbtn {
   position: relative;
   display: block;
   width: 200px;
   height: 54px;
-  top: 15px;
+  top: -5px;
   left: 133px;
   background: #d9d9d9;
   border-radius: 25px;
@@ -237,7 +64,7 @@
 
 /* LOGIN */
 
-.login {
+.signup {
   position: relative;
   display: flex;
   justify-content: center;
@@ -255,37 +82,7 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.email > input {
-  position: relative;
-  width: 418px;
-  height: 47px;
-  margin: 0;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-
-  background: #efeeee00;
-  border-radius: 25px;
-}
-
-.pass1 > input {
-  position: relative;
-  width: 418px;
-  height: 47px;
-  margin: 0;
-  text-align: center;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-
-  background: #efeeee00;
-  border-radius: 25px;
-}
-
-.loginbtn > input {
+.signupbtn > input {
   position: relative;
   width: 200px;
   height: 54px;
@@ -293,4 +90,24 @@
   font-size: 0px;
   background: #ffffff00;
   border-radius: 25px;
+}
+
+.signupbg {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  width: 470px;
+  height: 580px;
+
+  /* top: -150px;
+left: 700px; */
+
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 63px;
+}
+
+.signUp_list {
+  margin-top: 40px;
 }

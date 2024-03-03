@@ -15,7 +15,7 @@
   left: 0px;
   top: 0px;
 
-  background: #ffde73;
+  background: rgba(255, 212, 71, 0.83);
 }
 
 .resort {
@@ -205,7 +205,7 @@ left: 700px; */
 }
 
 /* don’t have a account? sign up */
-.signup {
+.login_signupbtn {
   position: relative;
   display: flex;
   top: 10px;
