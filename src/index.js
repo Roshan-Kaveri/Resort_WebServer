@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Login from "./pages/Login";
 import NoPage from "./pages/Nopage";
 import Signup from './pages/Signup';
+import Payements from './pages/Payment';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <Route index element={<Login />} />
         <Route path="*" element={<NoPage />} />
         <Route path="/signup" element={<Signup />} />
+        <Route path="/payments" element={<Payements />} />
       </Routes>
     </BrowserRouter>
   );
