@@ -1,40 +1,41 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-function LoginForm(){
+function Cabservice(){
  return <div className="loginform">
     <div className="loginbg">
     <div className="loginheader"></div>
-            <form>
+
+    <form>
            <div className="emailgrp">
            
-           <h2 className="emailtxt">Email</h2>
-            <div className="email"> <input  type='email' required   /></div>
+           <h2 className="emailtxt">From</h2>
+            <div className="email"> <input  type='text' required   /></div>
             </div>
 
 
             <div className="passgrp">
           
-            <h2 className="passtxt">Paswsord</h2>
-            <div className="pass"> <input type='password' required/>
+            <h2 className="passtxt">To</h2>
+            <div className="pass"> <input type='text' required/>
             </div>
             </div>
             
 
             <div className="loginbtn">
-                <h2 className="login">Login</h2>
+                <h2 className="login">Book</h2>
                 <input type='submit'/>
             </div>
-            <Link to="/signup">
+            <Link to="/">
             <h2 className="login_signupbtn">
-                dont have a account? sign up
+                return back!!
             </h2>
             </Link>
             </form>
-        </div>
+
+
     </div>
- 
+    </div>
 }
 
-
-export default LoginForm;
+export default Cabservice;
