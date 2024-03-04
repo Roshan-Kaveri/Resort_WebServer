@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 import Login from "./pages/Login";
 import NoPage from "./pages/Nopage";
 import Signup from './pages/Signup';
 import Payements from './pages/Payment';
 import Cabservice from './pages/CabService';
+import RoomBook from './pages/RoomBok';
 
 export default function App() {
   return (
@@ -19,10 +19,12 @@ export default function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/payments" element={<Payements />} />
         <Route path="/cab" element={<Cabservice />} />
+        <Route path="/RoomBook" element={<RoomBook/>} />
       </Routes>
     </BrowserRouter>
   );
 }
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
