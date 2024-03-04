@@ -1,21 +1,17 @@
-// import logo from './logo.svg';
-// import './App.css';
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import reportWebVitals from './reportWebVitals';
-// import Login from "./pages/Login";
-// import NoPage from "./pages/Nopage";
+import logo from './logo.svg';
+import './App.css';
+import './components/Roombok.css';
+import NavBar from './components/NavBar';
+import Introduction from './components/Introduction';
+import ROOM_BOOK from './components/RoomBok';
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+       <ROOM_BOOK></ROOM_BOOK>
+      </header>
+    </div>
+  );
+}
 
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//        Hi
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
+export default App;
