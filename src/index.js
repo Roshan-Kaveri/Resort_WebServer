@@ -7,6 +7,7 @@ import Login from "./pages/Login";
 import NoPage from "./pages/Nopage";
 import Signup from './pages/Signup';
 import Payements from './pages/Payment';
+import Cabservice from './pages/CabService';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="*" element={<NoPage />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/payments" element={<Payements />} />
+        <Route path="/cab" element={<Cabservice />} />
       </Routes>
     </BrowserRouter>
   );

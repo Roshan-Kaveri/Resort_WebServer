@@ -1,0 +1,23 @@
+#root > div.flexbox > div.cabimg > img {
+  width: 400px;
+  margin-top: 220px;
+  margin-left: 200px;
+  margin-right: 300px;
+}
+
+/* CAB SERVICE */
+.cabtxt {
+  top: -60px;
+  left: 180px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 433px;
+  height: 134px;
+  font-family: "Jockey One";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  margin: 0;
+  color: #ffffff;
+}
