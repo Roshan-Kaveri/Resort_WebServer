@@ -8,6 +8,7 @@ import NoPage from "./pages/Nopage";
 import Signup from './pages/Signup';
 import Payements from './pages/Payment';
 import Cabservice from './pages/CabService';
+import RoomBook from './pages/RoomBok';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/payments" element={<Payements />} />
         <Route path="/cab" element={<Cabservice />} />
+        <Route path="/RoomBook" element={<RoomBook/>} />
       </Routes>
     </BrowserRouter>
   );
