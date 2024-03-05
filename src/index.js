@@ -9,17 +9,19 @@ import Signup from './pages/Signup';
 import Payements from './pages/Payment';
 import Cabservice from './pages/CabService';
 import RoomBook from './pages/RoomBok';
+import FoodService from './pages/FoodService';
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route index element={<Login />} />
-        <Route path="*" element={<NoPage />} />
+        <Route  path="*" element={<NoPage />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/payments" element={<Payements />} />
         <Route path="/cab" element={<Cabservice />} />
         <Route path="/RoomBook" element={<RoomBook/>} />
+        <Route path="/Food" element={<FoodService/>} />
       </Routes>
     </BrowserRouter>
   );
