@@ -151,7 +151,7 @@ left: 700px; */
   top: -20px;
 
   background: #d9d9d9;
-  border-radius: 25px;
+  border-radius: 8px;
 }
 
 .passtxt {
@@ -186,7 +186,7 @@ left: 700px; */
   top: -20px;
 
   background: #d9d9d9;
-  border-radius: 25px;
+  border-radius: 8px;
 }
 
 .emailtxt {
@@ -268,7 +268,7 @@ left: 700px; */
   font-size: 20px;
 
   background: #efeeee00;
-  border-radius: 25px;
+  border-radius: 8px;
 }
 
 .pass > input {
@@ -283,7 +283,7 @@ left: 700px; */
   font-size: 20px;
 
   background: #efeeee00;
-  border-radius: 25px;
+  border-radius: 8px;
 }
 
 .loginbtn > input {
