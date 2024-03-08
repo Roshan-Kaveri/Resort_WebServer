@@ -32,9 +32,6 @@ const FoodService = () => {
         price = '75$'></FoodItems>
         
         
-        
-        
-        
         </div>
         <Foodbelowpage></Foodbelowpage>
         

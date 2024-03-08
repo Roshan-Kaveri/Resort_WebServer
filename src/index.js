@@ -10,6 +10,7 @@ import Payements from './pages/Payment';
 import Cabservice from './pages/CabService';
 import RoomBook from './pages/RoomBok';
 import FoodService from './pages/FoodService';
+import Profiles from './pages/Profile';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/cab" element={<Cabservice />} />
         <Route path="/RoomBook" element={<RoomBook/>} />
         <Route path="/Food" element={<FoodService/>} />
+        <Route path="/Profile" element={<Profiles/>} />
       </Routes>
     </BrowserRouter>
   );
