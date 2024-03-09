@@ -11,13 +11,15 @@ import Cabservice from './pages/CabService';
 import RoomBook from './pages/RoomBok';
 import FoodService from './pages/FoodService';
 import Profiles from './pages/Profile';
+import Home_page from './pages/Home_page';
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<Login />} />
+        <Route index element={<Home_page />} />
         <Route  path="*" element={<NoPage />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/payments" element={<Payements />} />
         <Route path="/cab" element={<Cabservice />} />

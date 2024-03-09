@@ -4,8 +4,11 @@ import '../components/BookRoom/Roombok.css';
 import image from '../assets/image.png';
 import image1 from '../assets/image1.jpg';
 import image3 from '../assets/image3.jpg';
+import NavBar from '../components/login_page/NavBar';
 function ROOM_BOOK() {
-    return <div className="Bc">
+    return<><NavBar></NavBar>
+    <div className="Bc">
+        
          <div class="rectangle"></div>
         <img src={image} alt="" />
         <div class="Brectangle1">
@@ -21,6 +24,7 @@ function ROOM_BOOK() {
                 <div className='Bim1'><img src={image1} alt="" /></div>
                 <div className='Bs'><input type="submit"id='Bsub' value="BOOK ROOM"></input></div>
                 </div> 
-            </div>    
+            </div>  
+            </>   
 }
 export default ROOM_BOOK;
