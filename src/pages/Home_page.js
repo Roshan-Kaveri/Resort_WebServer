@@ -1,12 +1,15 @@
+
 import React, { useState } from 'react';
-import '../components/home/Home_page.css';
+// import '../components/home/Home_page.css';
 import bg1 from '../assets/bg1.png';
 import Himg from '../assets/Himg.png';
 import Himg2 from '../assets/Him2.png';
 import Himg3 from '../assets/Him3.jpg';
 import { Link } from "react-router-dom";
+import NavBar from '../components/login_page/NavBar';
 function Home_page() {
     return <div className="Hc">
+      <NavBar></NavBar>
       <div class="Hrectangle">
       <b style={{ position: 'absolute', top: '45%', left: '50%', transform: 'translate(-50%, -50%)', color: 'black',fontSize:30}}>MANIPAL RESORT</b>
       </div>
@@ -28,7 +31,7 @@ function Home_page() {
       <div className='Hc2'>
       <div className='Himg2'><img src={Himg2} alt="" /></div>
       <textarea placeholder="" className='Htext1'></textarea>
-            <Link to="/CabService">
+            <Link to="/Cab">
             <h2 className="Cabservice">
                <b> Book A Cab Now!</b>
             </h2>
@@ -39,7 +42,7 @@ function Home_page() {
       <div className='Hc3'>
       <div className='Himg3'><img src={Himg3} alt="" /></div>
       <textarea placeholder="" className='Htext2'></textarea>
-            <Link to="/FoodOrder">
+            <Link to="/Food">
             <h2 className="FoodOrder">
                <b>Order Now!</b>
             </h2>

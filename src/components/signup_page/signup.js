@@ -33,7 +33,7 @@ function Signup(){
                 <h2 className="signup">SignUp</h2>
                 <input type='submit'/>
             </div>
-            <Link to="/">
+            <Link to="/login">
             <h2 className="signup_loginbtn">
                 dont have a account? sign up
             </h2>
