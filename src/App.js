@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-import NavBar from './components/login_page/NavBar';
-import Introduction from './components/login_page/Introduction';
-import Background from './components/login_page/Background';
-import LoginForm from './components/login_page/.login_form';
+// import logo from './logo.svg';
+// import './App.css';
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import reportWebVitals from './reportWebVitals';
+// import Login from "./pages/Login";
+// import NoPage from "./pages/Nopage";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       <Background></Background>
-        <NavBar></NavBar>
-        <div className="flexbox">
-        <Introduction></Introduction>
-        <LoginForm></LoginForm>
-        </div>
-       
-        
-      </header>
-    </div>
-  );
-}
 
-export default App;
+// function App() {
+//   return (
+//     <div className="App">
+//       <header className="App-header">
+//        Hi
+//       </header>
+//     </div>
+//   );
+// }
+
+// export default App;
