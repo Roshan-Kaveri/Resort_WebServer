@@ -35,7 +35,6 @@ body {
   margin: 0;
   position: fixed; /* Fix the image position to cover the viewport */
   top: 0;
-  filter: blur(1px);
   left: 0;
   z-index: -1;
 }
@@ -68,7 +67,6 @@ body {
   height: 30px;
   width: 100vw;
   position: absolute;
-  
   top: 0; /* Moves the element to the top of its containing element */
   left: 0; /* Keeps the element aligned to the left */
   line-height: 0.8;
@@ -117,7 +115,6 @@ body {
   background-color: black;
   margin-top: 60px;
   margin-left: 28.5%;
-  display: block;
   height: 90vh;
   width: 45vw;
   opacity: 0.8;

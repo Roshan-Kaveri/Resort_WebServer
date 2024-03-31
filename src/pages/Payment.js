@@ -22,7 +22,6 @@ function Payments() {
                 <b>EXPIRY:</b> <input type="text" name="text" id="p_text" required></input>
             </div> <input className = "p_submit" type="submit" value="PAY NOW" onClick={() => {setOpenModal(true);}}></input></div>
             {openModal && <Paysucc closeModal={setOpenModal}/>}
-            
     </div>
 }
 export default Payments;

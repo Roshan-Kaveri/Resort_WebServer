@@ -38,7 +38,13 @@ function Paysucc({ closeModal }) {
                 <div className='text'>
                     <h1>Payment Successful</h1>
                     <br></br>
-                    <button className='close' onClick={() => closeModal()}>Home</button>
+                    
+                    <div>
+                        <Link to="/">
+                        <button className='close' onClick={() => closeModal()}>Home</button>
+                        </Link>
+                    </div>
+                    
                 </div>
                 
                 
